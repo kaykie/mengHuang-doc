@@ -7,7 +7,7 @@
   想要获取脚本可以关注公众号：
     
 
-  <img src="./public/images/qrcode.jpg" width="200" height="200" />
+  <img src="./docs/public/images/qrcode.jpg" width="200" height="200" />
   
   回复：【梦幻】 获取激活码与下载地址
   
