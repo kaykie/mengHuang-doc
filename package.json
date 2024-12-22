@@ -1,9 +1,9 @@
 {
   "name": "悠然助手",
   "version": "1.0.0",
-  "description": "",
+  "description": "一款基于autojs实现的梦幻西游手游辅助工具，参考https://www.xiaye0.com/",
   "packageManager": "pnpm@8.11.0",
-  "author": "kaykie <kaykie0421@163.com>",
+  "author": "不可思议的脚本",
   "license": "MIT",
   "engines": {
     "node": "^18.20.0 || >=20.0.0"
