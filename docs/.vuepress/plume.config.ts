@@ -14,6 +14,7 @@ export default defineThemeConfig({
     avatar: 'https://theme-plume.vuejs.press/plume.png',
     name: '悠然助手',
     description: '',
+    layout:'right'
     // circle: true,
     // location: '',
     // organization: '',
@@ -22,7 +23,10 @@ export default defineThemeConfig({
   navbar,
   notes,
   social: [
-    { icon: 'github', link: '/' },
-  ],
+    { 
+      icon: 'github', 
+      link: 'https://github.com/kaykie/mengHuang-doc',
+    },
+  ]
 
 })
