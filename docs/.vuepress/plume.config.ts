@@ -6,12 +6,12 @@ import { notes } from './notes'
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: 'https://joke-gif.oss-cn-beijing.aliyuncs.com/icon.png?Expires=1734874108&OSSAccessKeyId=TMP.3KijPty5Jf2ygc29LVmHj1hcbkCBL7MJSX6Tn6upJho2cJeaJCdmj8SRRmdd4RMuL3U1mtbrWVXKw3RkGXojo4VtVCFSLX&Signature=cWU0q%2FmtrX7BHPo5KbjP34CAHIo%3D',
+  logo: 'https://mp-upload.oss-cn-beijing.aliyuncs.com/icon.png',
 
   appearance: true,
 
   profile: {
-    avatar: 'https://joke-gif.oss-cn-beijing.aliyuncs.com/icon.png?Expires=1734874108&OSSAccessKeyId=TMP.3KijPty5Jf2ygc29LVmHj1hcbkCBL7MJSX6Tn6upJho2cJeaJCdmj8SRRmdd4RMuL3U1mtbrWVXKw3RkGXojo4VtVCFSLX&Signature=cWU0q%2FmtrX7BHPo5KbjP34CAHIo%3D',
+    avatar: 'https://mp-upload.oss-cn-beijing.aliyuncs.com/icon.png',
     name: '悠然助手',
     description: '',
     layout:'right'
