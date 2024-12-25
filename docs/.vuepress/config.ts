@@ -14,6 +14,15 @@ export default defineUserConfig({
     ['meta', { name: 'description', content: '梦幻西游手游辅助工具，提供一键日常、自动副本、自动无限鬼等辅助功能' }],
     // 设置作者
     ['meta', { name: 'author', content: '不可思议的脚本' }],
+    ['script',{},`
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?3fbabc802bd0483f283b84f1206cb924";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+      `]
   ],
   bundler: viteBundler(),
 

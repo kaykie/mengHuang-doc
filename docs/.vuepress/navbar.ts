@@ -8,7 +8,7 @@ export const navbar = defineNavbarConfig([
   // },
   {
     text: '开始使用',
-    link: '/help/'
+    link: '/help/start/'
   },
   {
     text: '更新日志',

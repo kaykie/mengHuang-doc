@@ -62,6 +62,10 @@ const logNote = defineNoteConfig({
       {
         text:'2024-12-22',
         link:'/logs/w68tciha/'
+      },
+      {
+        text:'2024-12-24',
+        link:'/logs/mzwe5j3g/'
       }
     ]}
   ]
