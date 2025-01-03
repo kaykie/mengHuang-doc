@@ -8,11 +8,11 @@ export const navbar = defineNavbarConfig([
   // },
   {
     text: '开始使用',
-    link: '/help/start/'
+    link: '/help/all-start/'
   },
   {
-    text: '更新日志',
-    link: '/logs/w68tciha/'
+    text: '梦幻手游辅助',
+    link: '/help/start/'
   },
   { text: '博客', 
     items: [

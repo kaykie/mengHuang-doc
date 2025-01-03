@@ -62,7 +62,10 @@ const logNote = defineNoteConfig({
           text:'新区抢铅',
           link:'/help/uum1yqlg/'
         },
-        
+        {
+          text:'日志上报',
+          link:'/help/q62639g1/'
+        },
       ]
     },
     {text:'更新日志',prefix:'/logs',items:[
@@ -85,6 +88,14 @@ const logNote = defineNoteConfig({
       {
         text:'2024-12-30',
         link:'/dg1w8up5/'
+      },
+      {
+        text:'2024-12-31',
+        link:'/dg1wup5/'
+      },
+      {
+        text:'2025-01-03',
+        link:'/7o199vpn/'
       }
     ]},
     {
