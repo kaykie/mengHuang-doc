@@ -68,7 +68,7 @@ const logNote = defineNoteConfig({
         },
       ]
     },
-    {text:'更新日志',prefix:'/logs',items:[
+    {text:'更新日志',prefix:'/logs',collapsed:true,items:[
       {
         text:'2024-12-22',
         link:'/logs/w68tciha/'
