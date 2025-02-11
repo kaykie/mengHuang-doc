@@ -9,9 +9,9 @@ export default defineUserConfig({
   title: '悠然助手',
   head: [
     // 设置 keywords
-    ['meta', { name: 'keywords', content: '梦幻西游手游,游戏辅助,自动任务,一键日常,悠然助手' }],
+    ['meta', { name: 'keywords', content: '悠然助手,梦幻西游手游,脚本辅助,游戏辅助,自动打卡,一键日常' }],
     // 设置 description
-    ['meta', { name: 'description', content: '梦幻西游手游辅助工具，提供一键日常、自动副本、自动无限鬼等辅助功能' }],
+    ['meta', { name: 'description', content: '梦幻西游手游脚本辅助工具，提供一键日常、自动副本、自动无限鬼等辅助功能；提供飞书、钉钉自动打卡功能' }],
     // 设置作者
     ['meta', { name: 'author', content: '不可思议的脚本' }],
     ['script',{},`

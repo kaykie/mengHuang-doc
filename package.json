@@ -14,7 +14,7 @@
     "build": "vuepress build docs --clean-cache --clean-temp",
     "docs:preview": "http-server docs/.vuepress/dist",
     "vp-update": "pnpm dlx vp-update",
-    "upload":"node ./upload.js"
+    "upload":"npm run build && node ./upload.js"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.19",

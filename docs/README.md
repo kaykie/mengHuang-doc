@@ -1,7 +1,7 @@
 ---
 pageLayout: home
 externalLinkIcon: false
-title: 梦幻西游手游辅助工具
+title: 梦幻西游手游脚本辅助工具、自动打卡软件
 config:
   -
     type: hero
@@ -10,7 +10,7 @@ config:
     hero:
       name: 悠然助手
       tagline: 自动化辅助工具
-      alt: 悠然助手-梦幻西游手游辅助
+      alt: 悠然助手-梦幻西游手游辅助脚本工具
       text: 解放双手，轻松游戏，自动打卡，定制自动化工具
       actions:
         -
@@ -25,7 +25,7 @@ config:
     type: features
     features:
       - 
-        title: 梦幻西游手游辅助
+        title: 梦幻西游手游脚本辅助
         icon: 🎮
         details: 支持一键完成日常任务,包括师门、运镖、秘境、高级运镖等
         link: /help/ga7ah6kh/

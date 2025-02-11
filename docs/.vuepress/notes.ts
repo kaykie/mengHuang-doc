@@ -1,20 +1,23 @@
 import { defineNoteConfig, defineNotesConfig } from 'vuepress-theme-plume'
+import fs from 'fs'
+import path from 'path'
+const getLogItems = () => {
+  const logsDir = path.resolve(__dirname, '../notes/logs')
+  const files = fs.readdirSync(logsDir)
+    .filter(file => file.endsWith('.md')) // 只获取 markdown 文件
+    .map(file => {
+      const name = path.basename(file, '.md')
+      return {
+        text: name, // 文件名作为显示文本
+        link: `/logs/${name}/` // 生成链接
+      }
+    })
+    .sort((a, b) => b.text.localeCompare(a.text)) // 按日期倒序排列
 
-const demoNote = defineNoteConfig({
-  dir: 'help',
-  link: '/help/',
-  sidebar: [
-    'README.md',
-    '使用虚拟机',
-    '一键日常.md',
-    '自动副本功能.md', 
-    '自动抓鬼功能.md',
-    '低价秒非珍.md',
-    '周一自动门派.md',
-    '自动三界、科举',
-    '新区抢铅.md'
-  ],
-})
+  return files
+}
+console.log(getLogItems())
+
 const logNote = defineNoteConfig({
   dir: '/',
   link: '/',
@@ -59,12 +62,20 @@ const logNote = defineNoteConfig({
           link:'/help/50o8buc4/'
         },
         {
+          text:'珍品秒杀',
+          link:'/help/whxps1qk/'
+        },
+        {
           text:'新区抢铅',
           link:'/help/uum1yqlg/'
         },
         {
           text:'日志上报',
           link:'/help/q62639g1/'
+        },
+        {
+          text:'剑会挂机',
+          link:'/help/p6qpj4l8/'
         },
       ]
     },
@@ -96,6 +107,18 @@ const logNote = defineNoteConfig({
       {
         text:'2025-01-03',
         link:'/7o199vpn/'
+      },
+      {
+        text:'2025-01-13',
+        link:'/kyekhuy9/'
+      },
+      {
+        text:'2025-01-14',
+        link:'/hg4ovnv8/'
+      },
+      {
+        text:'2025-02-11',
+        link:'/esd4r2gq/'
       }
     ]},
     {
