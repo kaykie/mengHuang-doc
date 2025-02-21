@@ -1,15 +1,20 @@
 import { defineNoteConfig, defineNotesConfig } from 'vuepress-theme-plume'
 import fs from 'fs'
 import path from 'path'
+import matter from 'gray-matter' // 用于解析 frontmatter
+
 const getLogItems = () => {
   const logsDir = path.resolve(__dirname, '../notes/logs')
   const files = fs.readdirSync(logsDir)
     .filter(file => file.endsWith('.md')) // 只获取 markdown 文件
     .map(file => {
       const name = path.basename(file, '.md')
+      const filePath = path.join(logsDir, file)
+      const content = fs.readFileSync(filePath, 'utf-8')
+      const { data } = matter(content) // 解析 frontmatter
       return {
         text: name, // 文件名作为显示文本
-        link: `/logs/${name}/` // 生成链接
+        link: data.permalink ? data.permalink : `/logs/${name}/` // 生成链接
       }
     })
     .sort((a, b) => b.text.localeCompare(a.text)) // 按日期倒序排列
@@ -36,6 +41,10 @@ const logNote = defineNoteConfig({
         {
           text:'使用虚拟机',
           link:'/help/xejh8sxr/'
+        },
+        {
+          text:'重置激活码',
+          link:'/help/l1z7gwty/'
         },
         {
           text:'一键日常',
@@ -79,48 +88,7 @@ const logNote = defineNoteConfig({
         },
       ]
     },
-    {text:'更新日志',prefix:'/logs',collapsed:true,items:[
-      {
-        text:'2024-12-22',
-        link:'/logs/w68tciha/'
-      },
-      {
-        text:'2024-12-24',
-        link:'/logs/mzwe5j3g/'
-      },
-      {
-        text:'2024-12-25',
-        link:'/smmb2xmm/'
-      },
-      {
-        text:'2024-12-27',
-        link:'/pur25c8o/'
-      },
-      {
-        text:'2024-12-30',
-        link:'/dg1w8up5/'
-      },
-      {
-        text:'2024-12-31',
-        link:'/dg1wup5/'
-      },
-      {
-        text:'2025-01-03',
-        link:'/7o199vpn/'
-      },
-      {
-        text:'2025-01-13',
-        link:'/kyekhuy9/'
-      },
-      {
-        text:'2025-01-14',
-        link:'/hg4ovnv8/'
-      },
-      {
-        text:'2025-02-11',
-        link:'/esd4r2gq/'
-      }
-    ]},
+    {text:'更新日志',prefix:'/logs',collapsed:true,items:getLogItems()},
     {
       text:'签到助手',prefix:'/autoClock/',collapsed:true,
       items:[
