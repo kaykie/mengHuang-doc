@@ -86,6 +86,10 @@ const logNote = defineNoteConfig({
           text:'剑会挂机',
           link:'/help/p6qpj4l8/'
         },
+        {
+          text:'日常更新重启时机',
+          link:'/help/lyf5g6va/'
+        },
       ]
     },
     {text:'更新日志',prefix:'/logs',collapsed:true,items:getLogItems()},
