@@ -48,3 +48,7 @@
   --vp-c-text-3: rgba(235, 235, 245, 0.38);
   */
 }
+
+.vp-footer{
+  display: none;
+}

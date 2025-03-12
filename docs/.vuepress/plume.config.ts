@@ -12,7 +12,7 @@ export default defineThemeConfig({
 
   profile: {
     avatar: 'https://mp-upload.oss-cn-beijing.aliyuncs.com/icon.png',
-    name: '悠然助手',
+    name: '',
     description: '',
     layout:'right'
     // circle: true,

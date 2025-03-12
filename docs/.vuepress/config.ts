@@ -6,7 +6,7 @@ import { notes } from './notes'
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
-  title: '悠然助手',
+  title: '',
   head: [
     // 设置 keywords
     ['meta', { name: 'keywords', content: '悠然助手,梦幻西游手游,脚本辅助,游戏辅助,自动打卡,一键日常' }],

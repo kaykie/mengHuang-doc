@@ -39,4 +39,6 @@ config:
         icon: 🛠️
         details: 秒珍品、非珍品、自动挖宝图等便捷功能
         link: /features/tools
+  -
+    type: 'IPC'
 ---
