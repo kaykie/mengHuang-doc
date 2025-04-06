@@ -12,7 +12,7 @@ export default defineThemeConfig({
 
   profile: {
     avatar: 'https://mp-upload.oss-cn-beijing.aliyuncs.com/icon.png',
-    name: '',
+    name: '夏火华',
     description: '',
     layout:'right'
     // circle: true,

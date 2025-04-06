@@ -32,6 +32,39 @@ const logNote = defineNoteConfig({
       
     },
     {
+      text:'许愿领好礼',prefix:'/wish/',collapsed:true,
+      items:[
+        {
+          text:'下载软件',
+          link:'/wish/zl83pxfn/',
+        },
+        {
+          text:'开始使用',
+          link:'/wish/uyueasx9/',
+        },
+        {
+          text:'做任务',
+          link:'/wish/7jh8tbf9/',
+        },
+        {
+          text:'主任务配置',
+          link:'/wish/xf3sxupw/',
+        },
+        {
+          text:'捡星星',
+          link:'/wish/6rl2v7cd/',
+        },
+        {
+          text:'发射星星',
+          link:'/wish/2stwe2is/',
+        },
+        {
+          text:'重置激活码',
+          link:'/wish/95quqflo/',
+        }
+      ]
+    },
+    {
       text:'梦幻西游手游',prefix:'/menghuan/',collapsed:true,
       items:[
         {

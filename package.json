@@ -1,7 +1,7 @@
 {
   "name": "悠然助手",
   "version": "1.0.0",
-  "description": "一款基于autojs实现的梦幻西游手游辅助工具，参考https://www.xiaye0.com/",
+  "description": "悠然助手是一款多功能自动化脚本工具，支持梦幻西游手游辅助、自动打卡等任务，提升效率，简化操作。参考https://www.xiaye0.com/",
   "packageManager": "pnpm@8.11.0",
   "author": "不可思议的脚本",
   "license": "MIT",
@@ -14,16 +14,20 @@
     "build": "vuepress build docs --clean-cache --clean-temp",
     "docs:preview": "http-server docs/.vuepress/dist",
     "vp-update": "pnpm dlx vp-update",
-    "upload":"npm run build && node ./upload.js"
+    "upload": "npm run build && node ./upload.js"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.19",
     "adm-zip": "^0.5.16",
+    "axios": "^1.8.3",
     "http-server": "^14.1.1",
     "sass-embedded": "^1.83.0",
     "typescript": "^5.7.2",
     "vue": "^3.5.13",
     "vuepress": "2.0.0-rc.19",
     "vuepress-theme-plume": "1.0.0-rc.121"
+  },
+  "dependencies": {
+    "union-ad-vue": "^1.0.2"
   }
 }

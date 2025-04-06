@@ -1,7 +1,7 @@
 ---
 pageLayout: home
 externalLinkIcon: false
-title: 梦幻西游手游脚本辅助工具、自动打卡软件
+title: 悠然助手--多功能自动化脚本工具，支持梦幻西游手游辅助、自动打卡等任务，提升效率，简化操作。
 config:
   -
     type: hero
@@ -41,4 +41,5 @@ config:
         link: /features/tools
   -
     type: 'IPC'
+  
 ---

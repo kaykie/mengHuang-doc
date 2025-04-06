@@ -14,6 +14,10 @@ export const navbar = defineNavbarConfig([
     text: '梦幻手游辅助',
     link: '/help/start/'
   },
+  {
+    text: '许愿领好礼',
+    link: '/wish/uyueasx9/'
+  },
   { text: '博客', 
     items: [
       { text: '博客', link: '/blog/' },
