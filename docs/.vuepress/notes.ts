@@ -47,10 +47,6 @@ const logNote = defineNoteConfig({
           link:'/wish/7jh8tbf9/',
         },
         {
-          text:'主任务配置',
-          link:'/wish/xf3sxupw/',
-        },
-        {
           text:'捡星星',
           link:'/wish/6rl2v7cd/',
         },
@@ -59,8 +55,16 @@ const logNote = defineNoteConfig({
           link:'/wish/2stwe2is/',
         },
         {
+          text:'找19.9商品',
+          link:'/wish/eem2vvlw/',
+        },
+        {
           text:'重置激活码',
           link:'/wish/95quqflo/',
+        },
+        {
+          text:'其它通用捡',
+          link:'/wish/uxy9z2dm/',
         }
       ]
     },
