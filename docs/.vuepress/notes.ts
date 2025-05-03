@@ -65,6 +65,14 @@ const logNote = defineNoteConfig({
         {
           text:'其它通用捡',
           link:'/wish/uxy9z2dm/',
+        },
+        {
+          text:'通用浏览商品',
+          link:'/wish/3hyq7wgr/',
+        },
+        {
+          text:'某宝刷视频',
+          link:'/wish/6r05pyy4/',
         }
       ]
     },
