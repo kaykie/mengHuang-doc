@@ -35,10 +35,6 @@ const logNote = defineNoteConfig({
       text:'许愿领好礼',prefix:'/wish/',collapsed:true,
       items:[
         {
-          text:'下载软件',
-          link:'/wish/zl83pxfn/',
-        },
-        {
           text:'开始使用',
           link:'/wish/uyueasx9/',
         },
@@ -49,6 +45,10 @@ const logNote = defineNoteConfig({
         {
           text:'捡星星',
           link:'/wish/6rl2v7cd/',
+        },
+        {
+          text:'悬浮窗快捷操作说明',
+          link:'/wish/xkbfxdva/',
         },
         {
           text:'发射星星',
@@ -73,6 +73,10 @@ const logNote = defineNoteConfig({
         {
           text:'某宝刷视频',
           link:'/wish/6r05pyy4/',
+        },
+        {
+          text:'常见问题整理',
+          link:'/wish/way70hsi/',
         }
       ]
     },
