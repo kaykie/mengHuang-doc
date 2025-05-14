@@ -75,6 +75,10 @@ const logNote = defineNoteConfig({
           link:'/wish/6r05pyy4/',
         },
         {
+          text:'抢红包',
+          link:'/wish/5xix33jo/',
+        },
+        {
           text:'常见问题整理',
           link:'/wish/way70hsi/',
         }
